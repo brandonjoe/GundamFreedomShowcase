@@ -1,0 +1,112 @@
+.container {
+  background: ghostwhite;
+  background-size: cover;
+  background-repeat: none;
+  background-position: center;
+  height: 120rem;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  overflow: visible;
+}
+.background {
+  width: 100%;
+}
+.left {
+    height: 100%;
+    position: relative;
+    top: 20%;
+    left: 20rem;
+    width: 50rem;
+    font-family: 'Orbitron', sans-serif;
+}
+.left .title{
+    text-transform: uppercase;
+    font-size: 5rem;
+    white-space: nowrap;
+    font-weight: 200;
+    letter-spacing: 5px;
+
+}
+.left .secondarytitle{
+    margin-top: 3rem;
+    font-size: 2rem;
+    margin-bottom: 1.5rem;
+}
+.left .tertiarytitle{
+    text-indent: 2rem;
+    margin-bottom: 10rem;
+}
+.right {
+    
+  position: relative;
+  width: 90rem;
+  height: 100%;
+}
+.landing3{
+    width: 60rem;
+    z-index: 1000!important;
+    height: 60rem;
+    -webkit-clip-path: polygon(
+      50% 0%,
+      100% 25%,
+      100% 75%,
+      50% 100%,
+      0% 75%,
+      0% 25%
+    );
+    clip-path: polygon(50% 0%, 100% 25%, 100% 75%, 50% 100%, 0% 75%, 0% 25%);
+}
+.block{
+    position: absolute;
+    height: 80rem;
+    width: 60rem;
+    background: rgba(0,0,0,.3);
+    left: 15rem;
+    top: 10rem;
+    -webkit-clip-path: polygon(50% 0%, 100% 25%, 100% 75%, 50% 100%, 0% 75%, 0% 25%);
+clip-path: polygon(50% 0%, 100% 25%, 100% 75%, 50% 100%, 0% 75%, 0% 25%);
+}
+.block2{
+    position: absolute;
+    height: 80rem;
+    width: 60rem;
+    background: rgba(0,0,0,.3);
+    left: 15rem;
+    top: 70rem;
+    -webkit-clip-path: polygon(50% 0%, 100% 25%, 100% 75%, 50% 100%, 0% 75%, 0% 25%);
+clip-path: polygon(50% 0%, 100% 25%, 100% 75%, 50% 100%, 0% 75%, 0% 25%);
+}
+.landing2 {
+  right: 0;
+  float: right;
+  display: block;
+  position: relative;
+  width: 60rem;
+  height: 60rem;
+  -webkit-clip-path: polygon(
+    50% 0%,
+    100% 25%,
+    100% 75%,
+    50% 100%,
+    0% 75%,
+    0% 25%
+  );
+  clip-path: polygon(50% 0%, 100% 25%, 100% 75%, 50% 100%, 0% 75%, 0% 25%);
+}
+.landing1 {
+  top: -11rem;
+  left: -1rem;
+  position: relative;
+  width: 60rem;
+  height: 60rem;
+  -webkit-clip-path: polygon(
+    50% 0%,
+    100% 25%,
+    100% 75%,
+    50% 100%,
+    0% 75%,
+    0% 25%
+  );
+  clip-path: polygon(50% 0%, 100% 25%, 100% 75%, 50% 100%, 0% 75%, 0% 25%);
+}
