@@ -4,7 +4,7 @@
     background-size: cover;
     background-repeat: none;
     background-position: center;
-    height: 120rem;
+    height: 130rem;
     display: flex;
     width: 100%;
     flex-direction: column;
@@ -90,7 +90,7 @@ clip-path: polygon(25% 0, 100% 0, 100% 75%, 75% 100%, 0 100%, 0% 25%);
 }
 @media only screen and (max-width: 1250px){
   .container{
-    height: 250rem;
+    height: 230rem;
   }
 .section{
   flex-direction: column;
@@ -108,14 +108,25 @@ clip-path: polygon(25% 0, 100% 0, 100% 75%, 75% 100%, 0 100%, 0% 25%);
 }
 }
 @media only screen and (max-width: 650px){
+  .container{
+    height: 220rem;
+  }
   .arms{
+    margin-top: 3rem;
     width: 40rem;
   }
   .legs{
     width: 40rem;
+    height: 80rem;
   }
 }
 @media only screen and (max-width: 450px){
+  .container{
+    height: 240rem;
+  }
+  .title{
+    font-size: 3rem;
+  }
   .arms{
     width: 30rem;
   }

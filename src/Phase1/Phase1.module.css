@@ -153,6 +153,9 @@ clip-path: polygon(30% 0%, 70% 0%, 100% 30%, 100% 70%, 70% 100%, 30% 100%, 0% 70
 }
 }
 @media only screen and (max-width: 450px){
+  .title{
+    font-size: 3rem;
+  }
   .phase2img{
     width: 30rem;
   }
@@ -170,5 +173,10 @@ clip-path: polygon(30% 0%, 70% 0%, 100% 30%, 100% 70%, 70% 100%, 30% 100%, 0% 70
    width: 100%;
    margin: 0rem;
    padding: 2rem;
+ }
+ .header3{
+   width: 100%;
+   margin: 0;
+   
  }
  }
