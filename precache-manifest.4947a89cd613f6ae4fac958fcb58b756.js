@@ -1,18 +1,18 @@
 self.__precacheManifest = (self.__precacheManifest || []).concat([
   {
-    "revision": "137a41a1a6463510837c9542e716c6a1",
+    "revision": "152ed817518d6a5a27e2442c753c741d",
     "url": "/GundamFreedomShowcase/index.html"
   },
   {
-    "revision": "4843a322f8999250ada0",
-    "url": "/GundamFreedomShowcase/static/css/main.cf49b32f.chunk.css"
+    "revision": "c78bfa00148c5c04cc30",
+    "url": "/GundamFreedomShowcase/static/css/main.f516bd51.chunk.css"
   },
   {
     "revision": "c3257840d92d66e0c511",
     "url": "/GundamFreedomShowcase/static/js/2.09a1e5c8.chunk.js"
   },
   {
-    "revision": "4843a322f8999250ada0",
+    "revision": "c78bfa00148c5c04cc30",
     "url": "/GundamFreedomShowcase/static/js/main.fda0c46a.chunk.js"
   },
   {
