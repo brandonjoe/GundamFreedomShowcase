@@ -122,3 +122,57 @@ clip-path: polygon(50% 0%, 100% 25%, 100% 75%, 50% 100%, 0% 75%, 0% 25%);
 .image2{
   filter: drop-shadow(5px 10px 2rem rgba(0,0,0,0.5))
 }
+@media only screen and (max-width: 1750px){
+  .block{
+    left:0
+  }
+}
+@media only screen and (max-width: 1600px){
+  .right {
+    margin-left: 0rem;
+  position: relative;
+  height: 100%;
+  width: auto;
+}
+.block{display: none}
+.container{
+  flex-direction: column;
+  height: 100rem;
+}
+.landing2{
+  float: none;
+}
+.image2{
+  display: flex;
+
+}
+.landing3{
+  display: none;
+}.left {
+  height: auto;
+  position: relative;
+  top: 10rem;
+  left: 0rem;
+  width: 50rem;
+
+  font-family: 'Orbitron', sans-serif;
+  margin-right: 30rem;
+}
+}
+
+@media only screen and (max-width: 1200px){
+  .left{
+    width: 70rem;
+    margin-right: 0rem;
+  }
+  .secondarytitle{
+    text-align: center;
+    width: 100%;
+  }
+  .container{
+    height: 150rem;
+  }
+  .image2{
+    flex-direction: column;
+  }
+}

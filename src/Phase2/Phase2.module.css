@@ -88,3 +88,21 @@ clip-path: polygon(25% 0, 100% 0, 100% 75%, 75% 100%, 0 100%, 0% 25%);
 
   margin-bottom: 2rem;
 }
+@media only screen and (max-width: 1250px){
+  .container{
+    height: 250rem;
+  }
+.section{
+  flex-direction: column;
+  align-items: center;
+}
+.legs{
+  margin-top: 4rem;
+}
+.words{
+  width: 100%;
+}
+.left{
+  width: 90%;
+}
+}
