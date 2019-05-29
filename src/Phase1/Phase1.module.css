@@ -132,3 +132,43 @@ clip-path: polygon(30% 0%, 70% 0%, 100% 30%, 100% 70%, 70% 100%, 30% 100%, 0% 70
     height: 40rem;
   }
 }
+@media only screen and (max-width: 726px){
+ .phase2img{
+   width: 40rem;
+ }
+ .phase3img{
+   width: 40rem;
+ }
+ .phase4img{
+   width: 40rem;
+ }
+ .phase1img{
+  width: 40rem;
+  height: 30rem;
+}
+.header2{
+  width: 100%;
+  margin: 0rem;
+  padding: 2rem;
+}
+}
+@media only screen and (max-width: 450px){
+  .phase2img{
+    width: 30rem;
+  }
+  .phase3img{
+    width: 30rem;
+  }
+  .phase4img{
+    width: 30rem;
+  }
+  .phase1img{
+   width: 30rem;
+   height: 20rem;
+ }
+ .header2{
+   width: 100%;
+   margin: 0rem;
+   padding: 2rem;
+ }
+ }
