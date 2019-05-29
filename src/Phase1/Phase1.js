@@ -2,29 +2,19 @@ import React, { Component } from "react";
 import classes from "./Phase1.module.css";
 import phase1 from "../Media/phase1-2.jpg";
 import phase2 from "../Media/phase1-3.jpg";
+import phase3 from '../Media/phase1-5.jpg';
+import phase4 from '../Media/phase1-4.jpg';
 class Phase1 extends Component {
   render() {
     return (
       <div className={classes.container}>
         <div className={classes.block} />
-        <div className={classes.left}>
-          <img src={phase1} className={classes.phase1img} />
-          <header className={classes.header2}>
-            <div className={classes.title}>Head</div>
-            <div className={classes.secondarytitle}>
-              返ねンよ男経ルタレ材元供ヘフテニ皮住ウナハ盟際今スタユ質決コ秘場ヤイレ爆村るむト決堀実やト応量ぴ貯益イミ解悪35援キケセク情調ッる合2伯いひや。初ユナミヤ断迫よ他教人ナエヘ県恵カトヱ注係的ウ奪連けゃよに質料じがりら作問づや模育医ど都60剤になル。住よリつ意栄ヲヱ合激ロヒ問物づむえを何格ゅドげえ活載理た告碁ひ提度熱がしごう四育だるぎ月屏ル子37芸噴塗明2量フゃけク体待時こだょ。
+        <div className={classes.section}>
+            <div className={classes.left}>
+            <img src={phase1} className={classes.phase1img} />
             </div>
-            <div className={classes.secondarytitle}>
-              Lorem ipsum dolor, sit amet consectetur adipisicing elit. Quam in
-              sed inventore ea molestias facere maiores omnis, nisi, illum nihil
-              nesciunt. Voluptates natus dicta sequi odio similique libero
-              dolores reprehenderit!
-            </div>
-           
-          </header>
-        </div>
-        <div className={classes.right}>
-          <header>
+            <div className={classes.right}>
+            <header>
             <div className={classes.title}>Build Process</div>
             <div className={classes.secondarytitle}>
               返ねンよ男経ルタレ材元供ヘフテニ皮住ウナハ盟際今スタユ質決コ秘場ヤイレ爆村るむト決堀実やト応量ぴ貯益イミ解悪35援キケセク情調ッる合2伯いひや。初ユナミヤ断迫よ他教人ナエヘ県恵カトヱ注係的ウ奪連けゃよに質料じがりら作問づや模育医ど都60剤になル。住よリつ意栄ヲヱ合激ロヒ問物づむえを何格ゅドげえ活載理た告碁ひ提度熱がしごう四育だるぎ月屏ル子37芸噴塗明2量フゃけク体待時こだょ。
@@ -44,9 +34,84 @@ class Phase1 extends Component {
               perspiciatis facilis, consectetur explicabo vel repellendus quas
               unde, impedit, nobis temporibus libero?
             </div>
-            <img src={phase2} className={classes.phase2img} />
+            
           </header>
+
+            </div>
         </div>
+        <div className={classes.section}>
+            <div className={classes.left}>
+            
+          <header className={classes.header2}>
+            <div className={classes.title}>Head</div>
+            <div className={classes.secondarytitle}>
+              返ねンよ男経ルタレ材元供ヘフテニ皮住ウナハ盟際今スタユ質決コ秘場ヤイレ爆村るむト決堀実やト応量ぴ貯益イミ解悪35援キケセク情調ッる合2伯いひや。初ユナミヤ断迫よ他教人ナエヘ県恵カトヱ注係的ウ奪連けゃよに質料じがりら作問づや模育医ど都60剤になル。住よリつ意栄ヲヱ合激ロヒ問物づむえを何格ゅドげえ活載理た告碁ひ提度熱がしごう四育だるぎ月屏ル子37芸噴塗明2量フゃけク体待時こだょ。
+            </div>
+            <div className={classes.secondarytitle}>
+              Lorem ipsum dolor, sit amet consectetur adipisicing elit. Quam in
+              sed inventore ea molestias facere maiores omnis, nisi, illum nihil
+              nesciunt. Voluptates natus dicta sequi odio similique libero
+              dolores reprehenderit!
+            </div>
+            
+          </header>
+            </div>
+            <div className={`${classes.right} ${classes.special}`} >
+            <img src={phase2} className={classes.phase2img} />
+
+            </div>
+        </div>
+
+        <div className={classes.section}>
+            <div className={`${classes.left} ${classes.special}`}>
+            <img src={phase3} className={classes.phase3img} />
+      
+            </div>
+            <div className={classes.right}>
+            <header className={classes.header3}>
+            <div className={classes.title}>Chest</div>
+            <div className={classes.secondarytitle}>
+              返ねンよ男経ルタレ材元供ヘフテニ皮住ウナハ盟際今スタユ質決コ秘場ヤイレ爆村るむト決堀実やト応量ぴ貯益イミ解悪35援キケセク情調ッる合2伯いひや。初ユナミヤ断迫よ他教人ナエヘ県恵カトヱ注係的ウ奪連けゃよに質料じがりら作問づや模育医ど都60剤になル。住よリつ意栄ヲヱ合激ロヒ問物づむえを何格ゅドげえ活載理た告碁ひ提度熱がしごう四育だるぎ月屏ル子37芸噴塗明2量フゃけク体待時こだょ。
+            </div>
+            <div className={classes.secondarytitle}>
+              Lorem ipsum dolor, sit amet consectetur adipisicing elit. Quam in
+              sed inventore ea molestias facere maiores omnis, nisi, illum nihil
+              nesciunt. Voluptates natus dicta sequi odio similique libero
+              dolores reprehenderit!
+            </div>
+        
+            
+          </header>
+
+            </div>
+        </div>
+        <div className={classes.section}>
+            <div className={classes.left}>
+            <header className={classes.header2}>
+            <div className={classes.title}>Waist</div>
+            <div className={classes.secondarytitle}>
+              返ねンよ男経ルタレ材元供ヘフテニ皮住ウナハ盟際今スタユ質決コ秘場ヤイレ爆村るむト決堀実やト応量ぴ貯益イミ解悪35援キケセク情調ッる合2伯いひや。初ユナミヤ断迫よ他教人ナエヘ県恵カトヱ注係的ウ奪連けゃよに質料じがりら作問づや模育医ど都60剤になル。住よリつ意栄ヲヱ合激ロヒ問物づむえを何格ゅドげえ活載理た告碁ひ提度熱がしごう四育だるぎ月屏ル子37芸噴塗明2量フゃけク体待時こだょ。
+            </div>
+            <div className={classes.secondarytitle}>
+              Lorem ipsum dolor, sit amet consectetur adipisicing elit. Quam in
+              sed inventore ea molestias facere maiores omnis, nisi, illum nihil
+              nesciunt. Voluptates natus dicta sequi odio similique libero
+              dolores reprehenderit!
+            </div>
+            
+          </header>
+      
+            </div>
+            <div className={`${classes.right} ${classes.special}`}>
+            <img src={phase4} className={classes.phase4img} />
+
+            </div>
+        </div>
+
+
+
+    
+
       </div>
     );
   }

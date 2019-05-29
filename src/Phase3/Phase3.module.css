@@ -1,0 +1,41 @@
+.container {
+    position: relative;
+    background: ghostwhite;
+    background-size: cover;
+    background-repeat: none;
+    background-position: center;
+    height: 120rem;
+
+    width: 100%;
+    
+    font-family: 'Orbitron', sans-serif;
+  }
+  .main{
+   width: 70%;
+     position: relative;
+     display: block; 
+     margin: 0 auto;
+  }
+  .title{
+    text-transform: uppercase;
+    font-size: 5rem;
+    white-space: nowrap;
+    font-weight: 200;
+    letter-spacing: 5px;
+    z-index: 100 !important;
+    padding: 4rem;
+    text-align: center;
+    background: rgba(248, 248, 255, 0.356);
+    margin-bottom: 5rem;
+  }
+  .block{
+    position: absolute;
+    top: -8rem;
+    height:100%;
+    width: 100%;
+    background: rgba(0,0,0,.3);
+    z-index: 0;
+    -webkit-clip-path: polygon(100% 0, 0 50%, 100% 100%);
+    clip-path: polygon(100% 0, 0 50%, 100% 100%);
+    
+}

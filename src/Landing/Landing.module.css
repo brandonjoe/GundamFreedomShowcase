@@ -5,7 +5,7 @@
   background-position: center;
   height: 120rem;
   display: flex;
-  justify-content: space-between;
+  justify-content: center;
   align-items: center;
   overflow: visible;
 }
@@ -19,6 +19,7 @@
     left: 20rem;
     width: 50rem;
     font-family: 'Orbitron', sans-serif;
+    margin-right: 30rem;
 }
 .left .title{
     text-transform: uppercase;
@@ -38,12 +39,14 @@
     margin-bottom: 10rem;
 }
 .right {
-    
+    margin-left: 20rem;
   position: relative;
   width: 90rem;
   height: 100%;
 }
 .landing3{
+  box-shadow: 5px 10px 18px #888888;
+  z-index: 100;
     width: 60rem;
     z-index: 1000!important;
     height: 60rem;
@@ -78,7 +81,11 @@ clip-path: polygon(50% 0%, 100% 25%, 100% 75%, 50% 100%, 0% 75%, 0% 25%);
 clip-path: polygon(50% 0%, 100% 25%, 100% 75%, 50% 100%, 0% 75%, 0% 25%);
 }
 .landing2 {
+  box-shadow: 5px 10px 18px #888888;
+  z-index: 100;
   right: 0;
+  top: 2rem;
+  right: 2rem;
   float: right;
   display: block;
   position: relative;
@@ -95,8 +102,10 @@ clip-path: polygon(50% 0%, 100% 25%, 100% 75%, 50% 100%, 0% 75%, 0% 25%);
   clip-path: polygon(50% 0%, 100% 25%, 100% 75%, 50% 100%, 0% 75%, 0% 25%);
 }
 .landing1 {
-  top: -11rem;
-  left: -1rem;
+  box-shadow: 5px 10px 18px #888888;
+  z-index: 100;
+  top: -9rem;
+  left: -3rem;
   position: relative;
   width: 60rem;
   height: 60rem;
@@ -109,4 +118,7 @@ clip-path: polygon(50% 0%, 100% 25%, 100% 75%, 50% 100%, 0% 75%, 0% 25%);
     0% 25%
   );
   clip-path: polygon(50% 0%, 100% 25%, 100% 75%, 50% 100%, 0% 75%, 0% 25%);
+}
+.image2{
+  filter: drop-shadow(5px 10px 2rem rgba(0,0,0,0.5))
 }
