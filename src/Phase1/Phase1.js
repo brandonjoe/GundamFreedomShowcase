@@ -10,7 +10,7 @@ class Phase1 extends Component {
       <div className={classes.container}>
         <div className={classes.block} />
         <div className={classes.section}>
-          <div className={classes.left}>
+          <div className={`${classes.left} ${classes.special}`}>
             <img src={phase1} className={classes.phase1img} />
           </div>
           <div className={classes.right}>

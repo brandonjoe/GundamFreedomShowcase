@@ -3,7 +3,7 @@
   background-size: cover;
   background-repeat: none;
   background-position: center;
-  height: 120rem;
+  height: 135rem;
   display: flex;
   justify-content: center;
   align-items: center;
@@ -12,73 +12,88 @@
 .background {
   width: 100%;
 }
+.special{
+  filter: drop-shadow(5px 10px 2rem rgba(0,0,0,0.5))
+}
 .left {
-    height: 100%;
-    position: relative;
-    top: 20%;
-    left: 20rem;
-    width: 50rem;
-    font-family: 'Orbitron', sans-serif;
-    margin-right: 30rem;
+  height: 100%;
+  position: relative;
+  top: 20%;
+  left: 20rem;
+  width: 50rem;
+  font-family: "Orbitron", sans-serif;
+  margin-right: 30rem;
 }
-.left .title{
-    text-transform: uppercase;
-    font-size: 5rem;
-    white-space: nowrap;
-    font-weight: 200;
-    letter-spacing: 5px;
-
+.left .title {
+  text-transform: uppercase;
+  font-size: 5rem;
+  white-space: nowrap;
+  font-weight: 200;
+  letter-spacing: 5px;
 }
-.left .secondarytitle{
-    margin-top: 3rem;
-    font-size: 2rem;
-    margin-bottom: 1.5rem;
+.left .secondarytitle {
+  margin-top: 3rem;
+  font-size: 2rem;
+  margin-bottom: 1.5rem;
 }
-.left .tertiarytitle{
-    text-indent: 2rem;
-    margin-bottom: 10rem;
+.left .tertiarytitle {
+  text-indent: 2rem;
+  margin-bottom: 10rem;
 }
 .right {
-    margin-left: 20rem;
+  margin-left: 20rem;
   position: relative;
   width: 90rem;
   height: 100%;
 }
-.landing3{
-  box-shadow: 5px 10px 18px #888888;
+.landing3 {
+ 
   z-index: 100;
-    width: 60rem;
-    z-index: 1000!important;
-    height: 60rem;
-    -webkit-clip-path: polygon(
-      50% 0%,
-      100% 25%,
-      100% 75%,
-      50% 100%,
-      0% 75%,
-      0% 25%
-    );
-    clip-path: polygon(50% 0%, 100% 25%, 100% 75%, 50% 100%, 0% 75%, 0% 25%);
+  width: 60rem;
+  height: 60rem;
+  -webkit-clip-path: polygon(
+    50% 0%,
+    100% 25%,
+    100% 75%,
+    50% 100%,
+    0% 75%,
+    0% 25%
+  );
+  clip-path: polygon(50% 0%, 100% 25%, 100% 75%, 50% 100%, 0% 75%, 0% 25%);
 }
-.block{
-    position: absolute;
-    height: 80rem;
-    width: 60rem;
-    background: rgba(0,0,0,.3);
-    left: 15rem;
-    top: 10rem;
-    -webkit-clip-path: polygon(50% 0%, 100% 25%, 100% 75%, 50% 100%, 0% 75%, 0% 25%);
-clip-path: polygon(50% 0%, 100% 25%, 100% 75%, 50% 100%, 0% 75%, 0% 25%);
+.block {
+  position: absolute;
+  height: 80rem;
+  width: 60rem;
+  background: rgba(0, 0, 0, 0.3);
+  left: 15rem;
+  top: 10rem;
+  -webkit-clip-path: polygon(
+    50% 0%,
+    100% 25%,
+    100% 75%,
+    50% 100%,
+    0% 75%,
+    0% 25%
+  );
+  clip-path: polygon(50% 0%, 100% 25%, 100% 75%, 50% 100%, 0% 75%, 0% 25%);
 }
-.block2{
-    position: absolute;
-    height: 80rem;
-    width: 60rem;
-    background: rgba(0,0,0,.3);
-    left: 15rem;
-    top: 70rem;
-    -webkit-clip-path: polygon(50% 0%, 100% 25%, 100% 75%, 50% 100%, 0% 75%, 0% 25%);
-clip-path: polygon(50% 0%, 100% 25%, 100% 75%, 50% 100%, 0% 75%, 0% 25%);
+.block2 {
+  position: absolute;
+  height: 80rem;
+  width: 60rem;
+  background: rgba(0, 0, 0, 0.3);
+  left: 15rem;
+  top: 70rem;
+  -webkit-clip-path: polygon(
+    50% 0%,
+    100% 25%,
+    100% 75%,
+    50% 100%,
+    0% 75%,
+    0% 25%
+  );
+  clip-path: polygon(50% 0%, 100% 25%, 100% 75%, 50% 100%, 0% 75%, 0% 25%);
 }
 .landing2 {
   box-shadow: 5px 10px 18px #888888;
@@ -119,113 +134,113 @@ clip-path: polygon(50% 0%, 100% 25%, 100% 75%, 50% 100%, 0% 75%, 0% 25%);
   );
   clip-path: polygon(50% 0%, 100% 25%, 100% 75%, 50% 100%, 0% 75%, 0% 25%);
 }
-.image2{
-  filter: drop-shadow(5px 10px 2rem rgba(0,0,0,0.5))
+.image2 {
+  filter: drop-shadow(5px 10px 2rem rgba(0, 0, 0, 0.5));
 }
-@media only screen and (max-width: 1750px){
-  .block{
-    left:0
+@media only screen and (max-width: 1750px) {
+  .block {
+    left: 0;
   }
 }
-@media only screen and (max-width: 1600px){
+@media only screen and (max-width: 1600px) {
   .right {
     margin-left: 0rem;
-  position: relative;
-  height: 100%;
-  width: auto;
-}
-.block{display: none}
-.container{
-  flex-direction: column;
-  height: 100rem;
-}
-.landing2{
-  float: none;
-}
-.image2{
-  display: flex;
+    position: relative;
+    height: 100%;
+    width: auto;
+  }
+  .block {
+    display: none;
+  }
+  .container {
+    flex-direction: column;
+    height: 100rem;
+  }
+  .landing2 {
+    float: none;
+  }
+  .image2 {
+    display: flex;
+  }
+  .landing3 {
+    display: none;
+  }
+  .left {
+    height: auto;
+    position: relative;
+    top: 10rem;
+    left: 0rem;
+    width: 50rem;
 
-}
-.landing3{
-  display: none;
-}.left {
-  height: auto;
-  position: relative;
-  top: 10rem;
-  left: 0rem;
-  width: 50rem;
-
-  font-family: 'Orbitron', sans-serif;
-  margin-right: 30rem;
-}
+    font-family: "Orbitron", sans-serif;
+    margin-right: 30rem;
+  }
 }
 
-@media only screen and (max-width: 1200px){
-  .left{
+@media only screen and (max-width: 1200px) {
+  .left {
     width: 70rem;
     margin-right: 0rem;
   }
-  .secondarytitle{
+  .secondarytitle {
     text-align: center;
     width: 100%;
   }
-  .container{
+  .container {
     height: 150rem;
   }
-  .image2{
+  .image2 {
     flex-direction: column;
   }
 }
-@media only screen and (max-width: 900px){
-  .left{
+@media only screen and (max-width: 900px) {
+  .left {
     width: 50rem;
     text-align: center;
     margin: 0;
     padding: 0;
-
   }
-  .container{
+  .container {
     height: 120rem;
   }
- .left .title{
+  .left .title {
     font-size: 3rem;
   }
-  .landing1{
-    top:0;
+  .landing1 {
+    top: 0;
     right: 0;
     left: 0;
     width: 40rem;
-  height: 40rem;
+    height: 40rem;
   }
-  .landing2{
-    top:0;
+  .landing2 {
+    top: 0;
     right: 0;
     left: 0;
     width: 40rem;
     height: 40rem;
   }
 }
-@media only screen and (max-width: 700px){
-  .left{
+@media only screen and (max-width: 700px) {
+  .left {
     width: 35rem;
   }
-  .left .title{
+  .left .title {
     white-space: pre-wrap;
   }
-  .container{
+  .container {
     height: 130rem;
   }
 }
-@media only screen and (max-width: 450px){
-  .landing1{
-    top:0;
+@media only screen and (max-width: 450px) {
+  .landing1 {
+    top: 0;
     right: 0;
     left: 0;
     width: 30rem;
-  height: 30rem;
+    height: 30rem;
   }
-  .landing2{
-   
+  .landing2 {
     width: 30rem;
     height: 30rem;
   }
