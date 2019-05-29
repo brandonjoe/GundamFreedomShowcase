@@ -14,7 +14,7 @@
 importScripts("https://storage.googleapis.com/workbox-cdn/releases/4.3.1/workbox-sw.js");
 
 importScripts(
-  "/GundamFreedomShowcase/precache-manifest.2632f030276f008acdf814c1ab7cd28f.js"
+  "/GundamFreedomShowcase/precache-manifest.38f264cf12c10e6cc2b4b7420b553620.js"
 );
 
 self.addEventListener('message', (event) => {

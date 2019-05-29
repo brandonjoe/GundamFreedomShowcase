@@ -1,6 +1,6 @@
 self.__precacheManifest = (self.__precacheManifest || []).concat([
   {
-    "revision": "a5b3e36ddef5408c56d9e494417c14d6",
+    "revision": "b5352466a3fbddee70240cf4ca32efc5",
     "url": "/GundamFreedomShowcase/index.html"
   },
   {
