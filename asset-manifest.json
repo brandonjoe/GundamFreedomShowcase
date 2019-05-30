@@ -1,6 +1,6 @@
 {
   "files": {
-    "main.css": "/GundamFreedomShowcase/static/css/main.03ca9c29.chunk.css",
+    "main.css": "/GundamFreedomShowcase/static/css/main.fe8f3c8c.chunk.css",
     "main.js": "/GundamFreedomShowcase/static/js/main.69fbe3ee.chunk.js",
     "main.js.map": "/GundamFreedomShowcase/static/js/main.69fbe3ee.chunk.js.map",
     "runtime~main.js": "/GundamFreedomShowcase/static/js/runtime~main.35f7d82c.js",
@@ -8,9 +8,9 @@
     "static/js/2.09a1e5c8.chunk.js": "/GundamFreedomShowcase/static/js/2.09a1e5c8.chunk.js",
     "static/js/2.09a1e5c8.chunk.js.map": "/GundamFreedomShowcase/static/js/2.09a1e5c8.chunk.js.map",
     "index.html": "/GundamFreedomShowcase/index.html",
-    "precache-manifest.f7e05fd33a9c4bf9101fc2a59e91bb07.js": "/GundamFreedomShowcase/precache-manifest.f7e05fd33a9c4bf9101fc2a59e91bb07.js",
+    "precache-manifest.c0b67e86f8a5073241857409abbef79e.js": "/GundamFreedomShowcase/precache-manifest.c0b67e86f8a5073241857409abbef79e.js",
     "service-worker.js": "/GundamFreedomShowcase/service-worker.js",
-    "static/css/main.03ca9c29.chunk.css.map": "/GundamFreedomShowcase/static/css/main.03ca9c29.chunk.css.map",
+    "static/css/main.fe8f3c8c.chunk.css.map": "/GundamFreedomShowcase/static/css/main.fe8f3c8c.chunk.css.map",
     "static/media/arms.jpg": "/GundamFreedomShowcase/static/media/arms.1bd6a2e6.jpg",
     "static/media/landing2.jpg": "/GundamFreedomShowcase/static/media/landing2.84e58625.jpg",
     "static/media/landingback3.jpg": "/GundamFreedomShowcase/static/media/landingback3.1212562e.jpg",
