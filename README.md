@@ -15,7 +15,7 @@ I don't have any future plans for this current site, but hopefully down the road
 
 ### Takeaway
 
-While making previous websites, I've quickly come to realize how hard design is, but making a site with the sole purpose of "design" stresses even more how difficult it is. It's relieving that the job of a front-end developer doesn't always include design, and that there's potentially a whole team who are experts in graphic design; people who have an eye for stuff like this. I've also learned from this experience how important photography is when thinking about design. I didn't photograph any of the images seen on this website, so I had to do make do with what was presented. That being said, I'm grateful for how nice these photos are taken. There were more photos taken, especially progression photos, but I can't showcase them all without retaining the simplicity of this site and model kit.
+While making previous websites, I've quickly come to realize how hard design is, but making a site with the sole purpose of "design" stresses even more how difficult it is. It's relieving to know that the job of a front-end developer doesn't always include design, and that there's potentially a whole team who are experts in graphic design; creative people who have an eye for stuff like this. I've also learned from this experience how important photography is when thinking about design. I didn't photograph any of the images seen on this website, so I had to do make do with what was presented. That being said, I'm grateful for how nice these photos are taken. There were more photos taken, especially progression photos, but I can't showcase them all without retaining the simplicity of this site and model kit.
 
 ### Tech
 
