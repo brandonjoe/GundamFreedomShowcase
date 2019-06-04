@@ -3,7 +3,10 @@
 This site was made to practice my eye for design. The contents of this website relate to a mobile suit plastic model kit from an animated series called "Gundam." While I do enjoy making custom model kits (haven't had the time recently because of web development), my works are nowhere near as clean as the modeler who made this kit. This work is the top .5% of work of the 1000s of different kit I've seen. Because of the clean look this custom model has, I've decided to dedicate a mock website for it. There is a sense of elegance to well-crafted model kits like these, and I hope this website reflects it.
 
 ### Demo
+
 [Live Demo](https://brandonjoe.github.io/GundamFreedomShowcase/)
+
+![alt Example](https://i.imgur.com/jvNn4MF.jpg)
 
 ### General Use
 
